@@ -1,0 +1,403 @@
+using System.Collections.Specialized;
+
+namespace second
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            //1-misol
+            //Console.Write("4 xonali son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var thousand = number / 1000;
+            //var hand = number % 1000 / 100;
+            //var ten = number % 1000 % 100 / 10;
+            //var one = number % 10;
+            //var newNumber = thousand * 1000 + hand * 100 + one * 10 + ten;
+            //Console.WriteLine(" New number" + newNumber);
+            //2-misol
+            //Console.Write("3 xonali son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var hand = number / 100;
+            //var ten = number % 100 / 10;
+            //var one = number % 10;
+            //var newNumber = ten * 100 + hand * 10 + one;
+            //Console.WriteLine(newNumber);
+            //3-misol
+            //Console.Write("4 xonali son kiriting: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var thusand = number / 1000;
+            //var hand = number % 1000 / 100;
+            //var ten = number % 1000 % 100 /10;
+            //var one = number % 10;
+            //var newNumber = ten * 1000 +   hand*100 + thusand * 10 + one;
+            //Console.WriteLine("natija : " + newNumber);
+            //4-misol
+            //Console.Write(" gb ni kiriting: ");
+            //var gigoBayt = Convert.ToInt32(Console.ReadLine());
+            //var mbBayt = gigoBayt * 1024;
+            //Console.WriteLine("Natija: " + mbBayt);
+            //5-misol
+            //Console.Write(" gb ni kiriting: ");
+            //var gigoBayt = Convert.ToInt32(Console.ReadLine());
+            //var Bit = gigoBayt * 8589934592;
+            //Console.WriteLine("Natija: "+ Bit);
+            //6-misol
+            //Console.Write("gb ni kiriting : ");
+            //var gigoBayt = Convert.ToInt32 (Console.ReadLine());
+            //var newgigo = gigoBayt / 2;
+            //Console.WriteLine("Natija: " + newgigo);
+            //7-misol
+            //Console.Write(" n  number eneter: ");
+            //var level = Convert.ToInt32(Console.ReadLine());
+            //var levelUp = level * level;
+            //var levelDown = levelUp * level;
+            //var newLevel = levelDown;
+            //Console.WriteLine("new level: " + newLevel*levelDown);
+            //8-misol
+            //Console.Write("n number entr: ");
+            //var level = Convert.ToInt32(Console.ReadLine());
+            //var levelUp = level * level;
+            //var levelDown = levelUp * levelUp;
+            //var nelevel = levelDown;
+            //Console.WriteLine("new level: " + nelevel * nelevel);
+            //9-misol
+            //Console.Write("enter number: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var boolll = false;
+            //if (  number > 0 && number % 2 == 0) boolll = true;
+            //Console.WriteLine("ansver: " + boolll);
+            //10-misol
+            //Console.Write("number enter: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var boolll = false;
+            //if (number % 2 != 0) boolll = true;
+            //Console.WriteLine("ansver: " + boolll);
+            // 11 - misol
+            //Console.Write("number enter: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //if (number > 9 && number < 99) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //12-misol
+            //Console.Write("number enter: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //if (number > 999 && number < 9999) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //13-misol
+            //Console.Write("number enter: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //if (number > 9 && number < 99 && number % 2 == 0) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //14-misol
+            //Console.Write("number enter: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //if (number > 99 && number < 999 && number % 2 != 0) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //15-misol
+            //Console.Write("number enter: ");
+            //var number = Convert.ToInt32 (Console.ReadLine());
+            //if (number > 999 && number < 9999 && number % 2 == 0) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //16-misol
+            //Console.Write("number enter: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("number enter: ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //var booll = false;
+            //if (number % 2 != 0 && number1 % 2 != 0) booll = true;
+            //Console.WriteLine("ansver " + booll);
+            //17-misol
+            //Console.Write("number enter: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var tens = number / 10;
+            //var vans = number % 10;
+            //if (vans == tens) Console.WriteLine("ansver: true");
+            //else Console.WriteLine("ansver: false");
+            //18-misol
+            //Console.Write("number enter: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var tens = number / 10;
+            //var vans = number % 10;
+            //if (vans + tens > 10) Console.WriteLine("ansver: true");
+            //else Console.WriteLine("ansver: false");
+            //19-misol
+            //Console.Write("number enter: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var tens = number / 10;
+            //var vans = number % 10;
+            //var trueFalse = false;
+            //if (vans * tens > 20) Console.WriteLine(trueFalse = true); 
+            //else Console.WriteLine(trueFalse);
+            //20-misol
+            //    Console.Write("number enter: ");
+            //    var number = Convert.ToInt32(Console.ReadLine());
+            //    var tens = number / 10;
+            //    var vans = number % 10;
+            //    var trueFalse = false;
+            //    if (vans % 2 != 0 && tens % 2 != 0) Console.WriteLine(trueFalse = true);
+            //    else Console.WriteLine(trueFalse);
+            // 21 - misol
+            //Console.Write("number enter: ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //if (number % 3 == 0) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //22-misol
+            //Console.Write("enter number");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //if (number % 7 == 0) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //23-misol
+            //Console.Write("enter number ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //if (number % 3 == 0 && number % 8 == 0) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //24-misol
+            //Console.Write("enter number please");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //if (number % 7 == 0 && number % 9 == 0 ) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //25 -misol
+            //Console.Write("enter number please ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //if (number % 5 == 0) Console.WriteLine("false");
+            //else Console.WriteLine("true");
+            //26 - misol
+            //Console.Write("enter number please ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //if (number % 4 == 0 && number != 3 ) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //27-misol
+            //Console.Write("enter number plase ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number please ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());  
+            //if (number > number1) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //28-misol
+            //Console.Write("enter number please ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write(" enter second number please ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //if (number1 != number) Console.WriteLine("false");
+            //else Console.WriteLine("true");
+            //29-misol
+            //Console.Write("enter number plase ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number plase ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter third number plase ");
+            //var number2 = Convert.ToInt32(Console.ReadLine());
+            //if (number >  number1 && number > number2 ) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //30 -misol
+            //Console.Write("enter number please ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number please ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter third number please ");
+            //var number2 = Convert.ToInt32(Console.ReadLine());
+            //if (number2 > number1 && number2 > number) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //31 -misol
+            //Console.Write("enter number please ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number please ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //if (number1* 2 == number) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //32-misol
+            //Console.Write("enter number please ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("enter second number please ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //if (number * 5 == number1) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //33-misol
+            //Console.Write("enter number please ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number please ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //if (number * 4 == number1 || number1 * 4 == number ) Console.WriteLine("true");
+            //else Console.WriteLine("false");
+            //34-misol
+            //Console.Write("enter number please ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //if (number > number1) Console.WriteLine(number);
+            //else Console.WriteLine(number1);
+            //35-misol
+            //Console.Write("enter number plase ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //if (number1 > number) Console.WriteLine(number);
+            //else Console.WriteLine(number1);
+            //36-misol
+            //Console.Write("enter number please ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number please ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //if (number >= 10 && number <= 99 && number1 >= 10 && number1 <= 99) Console.WriteLine(number + number1);
+            //else Console.WriteLine(number * number1);
+            //37-misol
+            //Console.Write("enter number please ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());  
+            //if (number % 2 == 0 && number1 % 2 == 0) Console.WriteLine(number + number1);
+            //else Console.WriteLine(number * number1);
+            //38-misol
+            //Console.Write("enter number plase ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number plase ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //if (number % 2 != 0 && number1 % 2 != 0) Console.WriteLine(number * number1);
+            //else
+            //{
+            //    Console.WriteLine(number);
+            //    Console.WriteLine(number1);
+            //}
+            //39-misol
+            //Console.Write("enter  number plase ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number please ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter third number plase ");
+            //var number2 = Convert.ToInt32(Console.ReadLine());
+            //var sanoq = 0;
+            //if (number % 2 != 0) sanoq++;
+            //if (number1 % 2 != 0) sanoq++;
+            //if (number2 % 2 != 0)sanoq++;
+            //Console.WriteLine(sanoq);
+
+            //40-misol
+            //Console.Write(" enter number plase ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //var thusand = number / 1000;
+            //var hand = number % 1000 / 100;
+            //var ten = number % 1000 % 100 / 10;
+            //var one = number % 10;
+            //var sanoq = 0;
+            //if (thusand % 2 == 0) sanoq++;
+            //if (hand % 2 == 0) sanoq++;
+            //if (ten % 2 == 0) sanoq++;
+            //if (one % 2 == 0) sanoq++;
+            //Console.WriteLine(sanoq);
+
+            //41-misol
+            //Console.Write("enter number please ");
+            //var number = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter second number please ");
+            //var number1 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter third number please ");
+            //var number2 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter fours number please ");
+            //var number3 = Convert.ToInt32(Console.ReadLine());
+            //Console.Write("enter fifth number plese ");
+            //var number4 = Convert.ToInt32(Console.ReadLine());
+            //var sanoq = 0;
+            //if (number % 2 == 0) sanoq++;
+            //if (number1 % 2 == 0) sanoq++;
+            //if (number2 % 2 == 0) sanoq++;
+            //if (number3 % 2 == 0) sanoq++;
+            //if (number4 % 2 == 0) sanoq++;
+            //Console.Write(sanoq);
+            //massif yaratish
+
+            /*
+            // Bir o'lchamli massiv
+            Console.Write("Enter massiv soni: ");
+            int n = int.Parse(Console.ReadLine());
+            //int n = Convert.ToInt32(Console.ReadLine());
+            int[] massiv = new int[n];
+            Random random = new Random();   // Random oluvchi funksiya
+            for (int i = 0; i < n; i++)
+            {
+                massiv[i] = random.Next(1, 20);
+                Console.WriteLine(massiv[i]);
+            }
+            *//*foreach (var i in massiv)
+            {
+                Console.WriteLine(i);
+            }*/
+            /*for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine($"Massiv elementi soni: {massiv[i]}");
+            }*/
+
+
+
+
+
+
+
+
+            
+        }
+        //public static void dfghjkl()
+        //{
+        //    int m, n;
+        //    m = Convert.ToInt32(Console.ReadLine());
+        //    n = Convert.ToInt32(Console.ReadLine());
+        //    Console.WriteLine("Natija: " + (m + n));
+        //}
+        //public static void Nurulloh()
+        //{ qeweety:
+        //    var rand = new Random();
+        //    Console.Write("massifni  satrini kiriting: ");
+        //    var m = Convert.ToInt32(Console.ReadLine());
+        //    Console.Write("massifni ustunini kiriting: ");
+        //    var n = Convert.ToInt32(Console.ReadLine());
+        //    var massif = new int[m, n];
+
+        //    for (var i = 0; i < m; i++)
+        //    {
+        //        for (var j = 0; j < n; j++)
+        //        {
+        //            massif[i, j] = rand.Next(0, 10);
+        //            Console.Write(" " + massif[i, j]);
+        //        }
+        //        Console.WriteLine();
+
+        //    }
+        //    var maxx = int.MinValue;
+        //    var min = int.MaxValue;
+        //    var index_maxqator = 0;
+        //    var index_minqator = 0;
+        //    var index_maxustun = 0;
+        //    var index_minustun = 0;
+
+
+        //    for (var i = 0; i < m; i++)
+        //    {
+        //        for (var j = 0; j < n; j++)
+        //        {
+        //            if (massif[i, j] > maxx)
+        //            {
+        //                maxx = massif[i, j];
+        //                index_maxustun = j;
+        //                index_maxqator = i;
+        //            }
+        //            if (massif[i, j] < min)
+        //            {
+        //                min = massif[i, j];
+        //                index_minustun = j;
+        //                index_minqator = i;
+
+
+        //            }
+        //        }
+        //    }
+        //    Console.WriteLine($"elementlarni eng kattasi:{maxx} va uning qatori {index_maxqator + 1} va uning ustuni {index_maxustun + 1} joylashgan ");
+        //    Console.WriteLine($"elementlarni eng kickinasi:{min} va uning qatori {index_minqator + 1} va uning ustuni {index_minustun + 1} joylashgan ");
+        //    goto qeweety;
+
+            
+
+
+        }
+    }
+}
+
+
